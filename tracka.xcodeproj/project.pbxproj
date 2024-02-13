@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4D7C6D2B7A3BDA00B86FF1 /* trackaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D7C6C2B7A3BDA00B86FF1 /* trackaApp.swift */; };
+		EF4D7C6F2B7A3BDA00B86FF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D7C6E2B7A3BDA00B86FF1 /* ContentView.swift */; };
+		EF4D7C712B7A3BDC00B86FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4D7C702B7A3BDC00B86FF1 /* Assets.xcassets */; };
+		EF4D7C742B7A3BDC00B86FF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4D7C732B7A3BDC00B86FF1 /* Preview Assets.xcassets */; };
+		EF4D7C7F2B7A3BDC00B86FF1 /* trackaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D7C7E2B7A3BDC00B86FF1 /* trackaTests.swift */; };
+		EF4D7C892B7A3BDC00B86FF1 /* trackaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D7C882B7A3BDC00B86FF1 /* trackaUITests.swift */; };
+		EF4D7C8B2B7A3BDC00B86FF1 /* trackaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D7C8A2B7A3BDC00B86FF1 /* trackaUITestsLaunchTests.swift */; };
+		EF4D7C982B7A3DEF00B86FF1 /* AppActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D7C972B7A3DEF00B86FF1 /* AppActivity.swift */; };
+		EFFBF0BD2B7B025D005446E7 /* AppUsageTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBF0BC2B7B025D005446E7 /* AppUsageTracker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4D7C7B2B7A3BDC00B86FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4D7C612B7A3BDA00B86FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4D7C682B7A3BDA00B86FF1;
+			remoteInfo = tracka;
+		};
+		EF4D7C852B7A3BDC00B86FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4D7C612B7A3BDA00B86FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4D7C682B7A3BDA00B86FF1;
+			remoteInfo = tracka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4D7C692B7A3BDA00B86FF1 /* tracka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tracka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4D7C6C2B7A3BDA00B86FF1 /* trackaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackaApp.swift; sourceTree = "<group>"; };
+		EF4D7C6E2B7A3BDA00B86FF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4D7C702B7A3BDC00B86FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4D7C732B7A3BDC00B86FF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4D7C752B7A3BDC00B86FF1 /* tracka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tracka.entitlements; sourceTree = "<group>"; };
+		EF4D7C7A2B7A3BDC00B86FF1 /* trackaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4D7C7E2B7A3BDC00B86FF1 /* trackaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackaTests.swift; sourceTree = "<group>"; };
+		EF4D7C842B7A3BDC00B86FF1 /* trackaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4D7C882B7A3BDC00B86FF1 /* trackaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackaUITests.swift; sourceTree = "<group>"; };
+		EF4D7C8A2B7A3BDC00B86FF1 /* trackaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF4D7C972B7A3DEF00B86FF1 /* AppActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActivity.swift; sourceTree = "<group>"; };
+		EFFBF0BC2B7B025D005446E7 /* AppUsageTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsageTracker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4D7C662B7A3BDA00B86FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D7C772B7A3BDC00B86FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D7C812B7A3BDC00B86FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4D7C602B7A3BDA00B86FF1 = {
+			isa = PBXGroup;
+			children = (
+				EF4D7C6B2B7A3BDA00B86FF1 /* tracka */,
+				EF4D7C7D2B7A3BDC00B86FF1 /* trackaTests */,
+				EF4D7C872B7A3BDC00B86FF1 /* trackaUITests */,
+				EF4D7C6A2B7A3BDA00B86FF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4D7C6A2B7A3BDA00B86FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D7C692B7A3BDA00B86FF1 /* tracka.app */,
+				EF4D7C7A2B7A3BDC00B86FF1 /* trackaTests.xctest */,
+				EF4D7C842B7A3BDC00B86FF1 /* trackaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4D7C6B2B7A3BDA00B86FF1 /* tracka */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D7C6C2B7A3BDA00B86FF1 /* trackaApp.swift */,
+				EF4D7C6E2B7A3BDA00B86FF1 /* ContentView.swift */,
+				EF4D7C702B7A3BDC00B86FF1 /* Assets.xcassets */,
+				EF4D7C752B7A3BDC00B86FF1 /* tracka.entitlements */,
+				EF4D7C722B7A3BDC00B86FF1 /* Preview Content */,
+				EF4D7C972B7A3DEF00B86FF1 /* AppActivity.swift */,
+				EFFBF0BC2B7B025D005446E7 /* AppUsageTracker.swift */,
+			);
+			path = tracka;
+			sourceTree = "<group>";
+		};
+		EF4D7C722B7A3BDC00B86FF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D7C732B7A3BDC00B86FF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4D7C7D2B7A3BDC00B86FF1 /* trackaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D7C7E2B7A3BDC00B86FF1 /* trackaTests.swift */,
+			);
+			path = trackaTests;
+			sourceTree = "<group>";
+		};
+		EF4D7C872B7A3BDC00B86FF1 /* trackaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D7C882B7A3BDC00B86FF1 /* trackaUITests.swift */,
+				EF4D7C8A2B7A3BDC00B86FF1 /* trackaUITestsLaunchTests.swift */,
+			);
+			path = trackaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4D7C682B7A3BDA00B86FF1 /* tracka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4D7C8E2B7A3BDC00B86FF1 /* Build configuration list for PBXNativeTarget "tracka" */;
+			buildPhases = (
+				EF4D7C652B7A3BDA00B86FF1 /* Sources */,
+				EF4D7C662B7A3BDA00B86FF1 /* Frameworks */,
+				EF4D7C672B7A3BDA00B86FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tracka;
+			productName = tracka;
+			productReference = EF4D7C692B7A3BDA00B86FF1 /* tracka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4D7C792B7A3BDC00B86FF1 /* trackaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4D7C912B7A3BDC00B86FF1 /* Build configuration list for PBXNativeTarget "trackaTests" */;
+			buildPhases = (
+				EF4D7C762B7A3BDC00B86FF1 /* Sources */,
+				EF4D7C772B7A3BDC00B86FF1 /* Frameworks */,
+				EF4D7C782B7A3BDC00B86FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4D7C7C2B7A3BDC00B86FF1 /* PBXTargetDependency */,
+			);
+			name = trackaTests;
+			productName = trackaTests;
+			productReference = EF4D7C7A2B7A3BDC00B86FF1 /* trackaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4D7C832B7A3BDC00B86FF1 /* trackaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4D7C942B7A3BDC00B86FF1 /* Build configuration list for PBXNativeTarget "trackaUITests" */;
+			buildPhases = (
+				EF4D7C802B7A3BDC00B86FF1 /* Sources */,
+				EF4D7C812B7A3BDC00B86FF1 /* Frameworks */,
+				EF4D7C822B7A3BDC00B86FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4D7C862B7A3BDC00B86FF1 /* PBXTargetDependency */,
+			);
+			name = trackaUITests;
+			productName = trackaUITests;
+			productReference = EF4D7C842B7A3BDC00B86FF1 /* trackaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4D7C612B7A3BDA00B86FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EF4D7C682B7A3BDA00B86FF1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EF4D7C792B7A3BDC00B86FF1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EF4D7C682B7A3BDA00B86FF1;
+					};
+					EF4D7C832B7A3BDC00B86FF1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EF4D7C682B7A3BDA00B86FF1;
+					};
+				};
+			};
+			buildConfigurationList = EF4D7C642B7A3BDA00B86FF1 /* Build configuration list for PBXProject "tracka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4D7C602B7A3BDA00B86FF1;
+			productRefGroup = EF4D7C6A2B7A3BDA00B86FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4D7C682B7A3BDA00B86FF1 /* tracka */,
+				EF4D7C792B7A3BDC00B86FF1 /* trackaTests */,
+				EF4D7C832B7A3BDC00B86FF1 /* trackaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4D7C672B7A3BDA00B86FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D7C742B7A3BDC00B86FF1 /* Preview Assets.xcassets in Resources */,
+				EF4D7C712B7A3BDC00B86FF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D7C782B7A3BDC00B86FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D7C822B7A3BDC00B86FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4D7C652B7A3BDA00B86FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D7C6F2B7A3BDA00B86FF1 /* ContentView.swift in Sources */,
+				EF4D7C982B7A3DEF00B86FF1 /* AppActivity.swift in Sources */,
+				EFFBF0BD2B7B025D005446E7 /* AppUsageTracker.swift in Sources */,
+				EF4D7C6D2B7A3BDA00B86FF1 /* trackaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D7C762B7A3BDC00B86FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D7C7F2B7A3BDC00B86FF1 /* trackaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4D7C802B7A3BDC00B86FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4D7C8B2B7A3BDC00B86FF1 /* trackaUITestsLaunchTests.swift in Sources */,
+				EF4D7C892B7A3BDC00B86FF1 /* trackaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4D7C7C2B7A3BDC00B86FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4D7C682B7A3BDA00B86FF1 /* tracka */;
+			targetProxy = EF4D7C7B2B7A3BDC00B86FF1 /* PBXContainerItemProxy */;
+		};
+		EF4D7C862B7A3BDC00B86FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4D7C682B7A3BDA00B86FF1 /* tracka */;
+			targetProxy = EF4D7C852B7A3BDC00B86FF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF4D7C8C2B7A3BDC00B86FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4D7C8D2B7A3BDC00B86FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EF4D7C8F2B7A3BDC00B86FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tracka/tracka.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tracka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nealcarico.tracka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF4D7C902B7A3BDC00B86FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tracka/tracka.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tracka/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nealcarico.tracka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF4D7C922B7A3BDC00B86FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nealcarico.trackaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tracka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tracka";
+			};
+			name = Debug;
+		};
+		EF4D7C932B7A3BDC00B86FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nealcarico.trackaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tracka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tracka";
+			};
+			name = Release;
+		};
+		EF4D7C952B7A3BDC00B86FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nealcarico.trackaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tracka;
+			};
+			name = Debug;
+		};
+		EF4D7C962B7A3BDC00B86FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nealcarico.trackaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tracka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4D7C642B7A3BDA00B86FF1 /* Build configuration list for PBXProject "tracka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D7C8C2B7A3BDC00B86FF1 /* Debug */,
+				EF4D7C8D2B7A3BDC00B86FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4D7C8E2B7A3BDC00B86FF1 /* Build configuration list for PBXNativeTarget "tracka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D7C8F2B7A3BDC00B86FF1 /* Debug */,
+				EF4D7C902B7A3BDC00B86FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4D7C912B7A3BDC00B86FF1 /* Build configuration list for PBXNativeTarget "trackaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D7C922B7A3BDC00B86FF1 /* Debug */,
+				EF4D7C932B7A3BDC00B86FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4D7C942B7A3BDC00B86FF1 /* Build configuration list for PBXNativeTarget "trackaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D7C952B7A3BDC00B86FF1 /* Debug */,
+				EF4D7C962B7A3BDC00B86FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4D7C612B7A3BDA00B86FF1 /* Project object */;
+}
